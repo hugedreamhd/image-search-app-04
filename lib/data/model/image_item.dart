@@ -21,7 +21,7 @@ class ImageItem {
 
   @override
   String toString() {
-    return 'ImageItem{' + ' imageUrl: $imageUrl,' + ' tags: $tags,' + '}';
+    return 'ImageItem{ imageUrl: $imageUrl, tags: $tags,}';
   }
 
   ImageItem copyWith({
